@@ -1,45 +1,60 @@
-body {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #f2f2f2;
   }
   
-  .timer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .container {
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
   }
   
   .timer {
-    font-size: 5rem;
-    text-align: center;
-    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #444;
+    height: 150px;
+    border-radius: 10px;
   }
   
-  .timer button {
-    background-color: #38a169;
+  #timer {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    flex: 1;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    background-color: #4a4a4a;
     color: #fff;
     border: none;
-    border-radius: 0.25rem;
-    padding: 0.5rem 1rem;
-    font-size: 1.25rem;
+    border-radius: 5px;
+    padding: 10px;
     cursor: pointer;
-    margin: 0.5rem;
-    transition: background-color 0.3s ease;
-  }
-  
-  .timer button:hover {
-    background-color: #4fd1c5;
   }
   
   .reset {
-    background-color: #f6e05e;
-    color: #000;
-  }
-  
-  .reset:hover {
-    background-color: #fff176;
+    background-color: #fcd34d;
+    color: #444;
   }
   
