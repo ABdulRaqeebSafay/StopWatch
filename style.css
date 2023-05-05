@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f2f2f2;
+    background-color: #94d7ce;
   }
   
   .container {
@@ -30,7 +30,7 @@
   }
   
   #timer {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
   }
   
@@ -44,9 +44,7 @@
   .button {
     flex: 1;
     margin: 0 5px;
-    font-size: 1.2rem;
-    background-color: #4a4a4a;
-    color: #fff;
+    font-size: 1.8rem;
     border: none;
     border-radius: 5px;
     padding: 10px;
@@ -54,7 +52,15 @@
   }
   
   .reset {
-    background-color: #fcd34d;
-    color: #444;
+    background-color: #e7b71a;
+    color: white;
   }
-  
+#startBtn {
+    background-color: green;
+    color: white;
+}
+
+#stopBtn {
+    background-color: red;
+    color: white;
+}
