@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js" type="text/javascript"></script>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+</head>
+<body>
+  <div class="container mx-auto mt-16">
+    <div class="timer bg-gray-100 rounded-lg p-8 text-center">
+      <h1 id="timer" class="text-5xl font-bold mb-8">00:00.00</h1>
+      <div class="buttons flex justify-center">
+        <button id="startButton" class="start-button mr-4" onclick="startTimer()">Start</button>
+        <button id="stopButton" class="stop-button mr-4" onclick="stopTimer()">Stop</button>
+        <button id="resetButton" class="reset-button" onclick="resetTimer()">Reset</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
