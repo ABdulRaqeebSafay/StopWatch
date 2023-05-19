@@ -64,3 +64,33 @@
     background-color: red;
     color: white;
 }
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 300px;
+  }
+
+  #timer {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    max-width: 250px;
+  }
+
+  #timer {
+    font-size: 2.5rem;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+  }
+
+  .button {
+    flex: none;
+    width: 100%;
+    margin: 5px 0;
+  }
+}
